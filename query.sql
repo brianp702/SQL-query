@@ -139,4 +139,3 @@ select *
 from chargeRates
 left join FFBillingTotal on ch_chargeDateStart = cc_startDate
 order by cc_startDate ASC
-				
