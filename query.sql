@@ -125,7 +125,7 @@ chargeRates AS (
 			) x
 		WHERE co_name LIKE 'Bottom Two LLC%'
 		GROUP BY
-				cc_startDate
+			cc_startDate
 			,pt_name
 			,co_name
 			,cst_sourceID
